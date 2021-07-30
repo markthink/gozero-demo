@@ -14,7 +14,7 @@ message user {
 }
 
 message commResp {
-  book ok = 1;
+  bool ok = 1;
   string error = 2;
 }
 
@@ -41,10 +41,10 @@ message respGetAll {
 
 
 service User {
-  rpc login (reqUser) returns (respLogin)
-  rpc create (reqUser) returns (commResp)
-  rpc update (user) returns (commResp)
-  rpc delete (reqUserId) returns (commResp)
-  rpc get (reqUserId) returns (user)
-  rpc getAll (reqGetAll) returns (respGetAll)
+  rpc login (reqUser) returns (respLogin);
+  rpc create (reqUser) returns (commResp);
+  rpc update (user) returns (commResp);
+  rpc delete (reqUserId) returns (commResp);
+  rpc get (reqUserId) returns (user);
+  rpc getAll (reqGetAll) returns (respGetAll);
 }
