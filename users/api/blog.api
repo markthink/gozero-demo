@@ -1,4 +1,3 @@
-
 syntax = "v1"
 
 info(
@@ -10,7 +9,7 @@ info(
 
 type reqUser {
 	Username string `json:"username"`
-	Password	string `json:"password"`
+	Password string `json:"password"`
 }
 
 type reqUserId {
@@ -18,13 +17,13 @@ type reqUserId {
 }
 
 type reqUpdateUser {
-	Id int64 `path:"id"`
+	Id       int64  `path:"id"`
 	Username string `json:"username"`
 	Password string `json:"password"`
 }
 
 type user {
-	Id int64 `path:"id"`
+	Id       int64  `path:"id"`
 	Username string `json:"username"`
 	Password string `json:"password"`
 }
@@ -34,26 +33,26 @@ type respLogin {
 }
 
 type commResp {
-	Ok bool `json:"ok"`
+	Ok    bool   `json:"ok"`
 	Error string `json:"error"`
 }
 
 service blog-api {
 	@handler Login
 	post /login (reqUser) returns(respLogin)
-
+	
 	@handler AddUser
 	post /users (reqUser) returns (commResp)
-
+	
 	@handler DeleteUser
 	delete /users/id/:id (reqUserId) returns (commResp)
-
+	
 	@handler UpdateUser
 	put /users/id/:id  (reqUpdateUser) returns (commResp)
-
+	
 	@handler GetUser
 	get /users/id/:id (reqUserId) returns (user)
-
+	
 	@handler GetAllUsers
 	get /users () returns ([]user)
 }
