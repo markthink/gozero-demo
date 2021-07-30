@@ -22,10 +22,10 @@ func main() {
 	var c config.Config
 	conf.MustLoad(*configFile, &c)
 	ctx := svc.NewServiceContext(c)
-	srv := server.NewUserServer(ctx)
+	srv := server.NewUsersServer(ctx)
 
 	s := zrpc.MustNewServer(c.RpcServerConf, func(grpcServer *grpc.Server) {
-		user.RegisterUserServer(grpcServer, srv)
+		user.RegisterUsersServer(grpcServer, srv)
 	})
 	defer s.Stop()
 

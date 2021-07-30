@@ -40,7 +40,7 @@ message respGetAll {
 }
 
 
-service User {
+service users {
   rpc login (reqUser) returns (respLogin);
   rpc create (reqUser) returns (commResp);
   rpc update (user) returns (commResp);

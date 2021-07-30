@@ -5,6 +5,7 @@ import (
 
 	"blog/users/api/internal/svc"
 	"blog/users/api/internal/types"
+	"blog/users/rpc/users"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )
@@ -26,5 +27,9 @@ func NewUpdateUserLogic(ctx context.Context, svcCtx *svc.ServiceContext) UpdateU
 func (l *UpdateUserLogic) UpdateUser(req types.ReqUpdateUser) (*types.CommResp, error) {
 	// todo: add your logic here and delete this line
 
-	return &types.CommResp{}, nil
+	resp, err := l.svcCtx.User.Update(l.ctx, &users.User{Id: req.Id, Password: req.Password, Username: req.Username})
+	if err != nil {
+		return nil, err
+	}
+	return &types.CommResp{Ok: resp.Ok}, nil
 }

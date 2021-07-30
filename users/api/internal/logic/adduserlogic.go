@@ -5,6 +5,7 @@ import (
 
 	"blog/users/api/internal/svc"
 	"blog/users/api/internal/types"
+	"blog/users/rpc/users"
 
 	"github.com/tal-tech/go-zero/core/logx"
 )
@@ -25,6 +26,13 @@ func NewAddUserLogic(ctx context.Context, svcCtx *svc.ServiceContext) AddUserLog
 
 func (l *AddUserLogic) AddUser(req types.ReqUser) (*types.CommResp, error) {
 	// todo: add your logic here and delete this line
+	resp, err := l.svcCtx.User.Create(l.ctx, &users.ReqUser{
+		Username: req.Username,
+		Password: req.Password,
+	})
+	if err != nil {
+		return nil, err
+	}
 
-	return &types.CommResp{}, nil
+	return &types.CommResp{Ok: resp.Ok}, nil
 }

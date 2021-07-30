@@ -383,26 +383,26 @@ func init() { proto.RegisterFile("user.proto", fileDescriptor_116e343673f7ffaf) 
 
 var fileDescriptor_116e343673f7ffaf = []byte{
 	// 320 bytes of a gzipped FileDescriptorProto
-	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x9c, 0x92, 0xdf, 0x4a, 0xc3, 0x30,
-	0x14, 0xc6, 0x69, 0xbb, 0xd5, 0xee, 0x0c, 0x37, 0x09, 0x5e, 0x8c, 0x79, 0x33, 0x83, 0xb0, 0x89,
-	0x50, 0x64, 0x3e, 0xc1, 0xbc, 0x91, 0x81, 0x78, 0x11, 0xf0, 0x01, 0xea, 0x72, 0x28, 0xa5, 0x7f,
-	0xd2, 0x25, 0x19, 0xbe, 0xbb, 0x57, 0x92, 0xa4, 0xdd, 0x9f, 0x16, 0xbc, 0xf0, 0xa6, 0xf4, 0xcb,
-	0xf9, 0xfa, 0x3b, 0xf9, 0xce, 0x29, 0xc0, 0x41, 0xa1, 0x8c, 0x6b, 0x29, 0xb4, 0x20, 0x03, 0xf3,
-	0x4e, 0x37, 0x70, 0x25, 0x71, 0xff, 0xa9, 0x50, 0x92, 0x39, 0x44, 0xe6, 0xa8, 0x4a, 0x4a, 0x9c,
-	0x79, 0x0b, 0x6f, 0x35, 0x62, 0x47, 0x6d, 0x6a, 0x75, 0xa2, 0xd4, 0xb7, 0x90, 0x7c, 0xe6, 0xbb,
-	0x5a, 0xab, 0xe9, 0x07, 0x58, 0x14, 0x99, 0x80, 0x9f, 0x71, 0xfb, 0x65, 0xc0, 0xfc, 0x8c, 0x5f,
-	0xf0, 0xfc, 0x3f, 0x78, 0x41, 0x87, 0xf7, 0x0c, 0xd1, 0x4e, 0x94, 0x25, 0x43, 0x55, 0x1b, 0xa6,
-	0xc8, 0x2d, 0x33, 0x62, 0xbe, 0xc8, 0xc9, 0x2d, 0x0c, 0x51, 0x4a, 0x21, 0x1b, 0xa0, 0x13, 0xf4,
-	0x15, 0xa2, 0x42, 0xa4, 0x59, 0xc5, 0x70, 0xff, 0xef, 0x14, 0xf7, 0x30, 0x92, 0xa8, 0xea, 0x77,
-	0xc3, 0x31, 0x6d, 0xb4, 0xc8, 0xb1, 0x6a, 0x08, 0x4e, 0xd0, 0x3b, 0x63, 0xb1, 0xb3, 0xda, 0xf2,
-	0x6e, 0x5a, 0x3a, 0xb6, 0xc5, 0x37, 0xd4, 0x9b, 0xa2, 0xa0, 0x31, 0x80, 0x81, 0x39, 0x45, 0x16,
-	0x30, 0x34, 0x57, 0x50, 0x33, 0x6f, 0x11, 0xac, 0xc6, 0x6b, 0x88, 0xed, 0x16, 0xcc, 0x83, 0xb9,
-	0xc2, 0xfa, 0xc7, 0x83, 0x81, 0xdd, 0xc1, 0x12, 0x86, 0x36, 0x09, 0xb9, 0x76, 0xa6, 0xa6, 0xdf,
-	0x7c, 0xda, 0xca, 0xf6, 0x86, 0x4b, 0x08, 0x77, 0x12, 0x13, 0x8d, 0x5d, 0xe7, 0xc4, 0xc9, 0xe3,
-	0x04, 0x1f, 0x20, 0x3c, 0xd4, 0xdc, 0x18, 0xcf, 0xfa, 0xf6, 0x5c, 0x8f, 0x10, 0x72, 0x2c, 0x50,
-	0x23, 0x99, 0x5e, 0xe0, 0xb6, 0xbc, 0x67, 0xa5, 0x10, 0xa4, 0xa8, 0xfb, 0xbe, 0x33, 0x3c, 0x79,
-	0x82, 0x30, 0x75, 0xd9, 0x4f, 0x36, 0x37, 0x8c, 0xf9, 0xcd, 0x29, 0x89, 0x3b, 0xf9, 0x0a, 0xed,
-	0xff, 0xf8, 0xf2, 0x1b, 0x00, 0x00, 0xff, 0xff, 0xd3, 0x19, 0x91, 0xf4, 0x9d, 0x02, 0x00, 0x00,
+	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x9c, 0x92, 0xcb, 0x6a, 0xf3, 0x30,
+	0x10, 0x85, 0xb1, 0xfd, 0xc7, 0xbf, 0x33, 0xa1, 0x49, 0x11, 0x5d, 0x84, 0x74, 0xe3, 0x8a, 0x42,
+	0x52, 0x0a, 0xa6, 0xa4, 0x4f, 0x90, 0x6e, 0x4a, 0xa0, 0x74, 0x21, 0xe8, 0x03, 0xb8, 0xd1, 0x60,
+	0x8c, 0x2f, 0x72, 0x24, 0x85, 0x3e, 0x7c, 0x37, 0x45, 0x92, 0x9d, 0x8b, 0x0d, 0x5d, 0x74, 0x63,
+	0x7c, 0x34, 0xc7, 0xdf, 0xcc, 0x19, 0x0b, 0xe0, 0xa0, 0x50, 0x26, 0x8d, 0x14, 0x5a, 0x90, 0x7f,
+	0xe6, 0x9d, 0x6e, 0xe0, 0xbf, 0xc4, 0xfd, 0x87, 0x42, 0x49, 0x16, 0x10, 0x99, 0xa3, 0x3a, 0xad,
+	0x70, 0xee, 0xc5, 0xde, 0x6a, 0xcc, 0x8e, 0xda, 0xd4, 0x9a, 0x54, 0xa9, 0x2f, 0x21, 0xf9, 0xdc,
+	0x77, 0xb5, 0x4e, 0xd3, 0x77, 0xb0, 0x28, 0x32, 0x05, 0x3f, 0xe7, 0xf6, 0xcb, 0x80, 0xf9, 0x39,
+	0xbf, 0xe0, 0xf9, 0xbf, 0xf0, 0x82, 0x1e, 0xef, 0x09, 0xa2, 0x9d, 0xa8, 0x2a, 0x86, 0xaa, 0x31,
+	0x4c, 0x51, 0x58, 0x66, 0xc4, 0x7c, 0x51, 0x90, 0x1b, 0x18, 0xa1, 0x94, 0x42, 0xb6, 0x40, 0x27,
+	0xe8, 0x0b, 0x44, 0xa5, 0xc8, 0xf2, 0x9a, 0xe1, 0xfe, 0xcf, 0x29, 0xee, 0x60, 0x2c, 0x51, 0x35,
+	0x6f, 0x86, 0x63, 0xda, 0x68, 0x51, 0x60, 0xdd, 0x12, 0x9c, 0xa0, 0xb7, 0xc6, 0x62, 0x77, 0xb5,
+	0xe5, 0xfd, 0xb4, 0x74, 0x62, 0x8b, 0xaf, 0xa8, 0x37, 0x65, 0x49, 0x13, 0x00, 0x03, 0x73, 0x8a,
+	0xc4, 0x30, 0x32, 0x23, 0xa8, 0xb9, 0x17, 0x07, 0xab, 0xc9, 0x1a, 0x12, 0xfb, 0x17, 0xcc, 0x83,
+	0xb9, 0xc2, 0xfa, 0xdb, 0x6b, 0x2d, 0x64, 0x09, 0x23, 0x1b, 0x85, 0x5c, 0x39, 0x57, 0xdb, 0x70,
+	0x31, 0xeb, 0x64, 0x37, 0xe2, 0x12, 0xc2, 0x9d, 0xc4, 0x54, 0x63, 0xdf, 0x39, 0x75, 0xf2, 0xb8,
+	0xc2, 0x7b, 0x08, 0x0f, 0x0d, 0x37, 0xc6, 0xb3, 0xc6, 0x03, 0xd7, 0x03, 0x84, 0x1c, 0x4b, 0xd4,
+	0x48, 0x66, 0x17, 0xb8, 0x2d, 0x1f, 0x58, 0x29, 0x04, 0x19, 0xea, 0xa1, 0xef, 0x0c, 0x4f, 0x1e,
+	0x21, 0xcc, 0x5c, 0xf8, 0x93, 0xcd, 0x6d, 0x63, 0x71, 0x7d, 0x4a, 0xe2, 0x4e, 0x3e, 0x43, 0x7b,
+	0x21, 0x9f, 0x7f, 0x02, 0x00, 0x00, 0xff, 0xff, 0x55, 0x65, 0x16, 0x2b, 0x9e, 0x02, 0x00, 0x00,
 }
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -413,10 +413,10 @@ var _ grpc.ClientConn
 // is compatible with the grpc package it is being compiled against.
 const _ = grpc.SupportPackageIsVersion4
 
-// UserClient is the client API for User service.
+// UsersClient is the client API for Users service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
-type UserClient interface {
+type UsersClient interface {
 	Login(ctx context.Context, in *ReqUser, opts ...grpc.CallOption) (*RespLogin, error)
 	Create(ctx context.Context, in *ReqUser, opts ...grpc.CallOption) (*CommResp, error)
 	Update(ctx context.Context, in *User, opts ...grpc.CallOption) (*CommResp, error)
@@ -425,70 +425,70 @@ type UserClient interface {
 	GetAll(ctx context.Context, in *ReqGetAll, opts ...grpc.CallOption) (*RespGetAll, error)
 }
 
-type userClient struct {
+type usersClient struct {
 	cc *grpc.ClientConn
 }
 
-func NewUserClient(cc *grpc.ClientConn) UserClient {
-	return &userClient{cc}
+func NewUsersClient(cc *grpc.ClientConn) UsersClient {
+	return &usersClient{cc}
 }
 
-func (c *userClient) Login(ctx context.Context, in *ReqUser, opts ...grpc.CallOption) (*RespLogin, error) {
+func (c *usersClient) Login(ctx context.Context, in *ReqUser, opts ...grpc.CallOption) (*RespLogin, error) {
 	out := new(RespLogin)
-	err := c.cc.Invoke(ctx, "/user.User/login", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/user.users/login", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *userClient) Create(ctx context.Context, in *ReqUser, opts ...grpc.CallOption) (*CommResp, error) {
+func (c *usersClient) Create(ctx context.Context, in *ReqUser, opts ...grpc.CallOption) (*CommResp, error) {
 	out := new(CommResp)
-	err := c.cc.Invoke(ctx, "/user.User/create", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/user.users/create", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *userClient) Update(ctx context.Context, in *User, opts ...grpc.CallOption) (*CommResp, error) {
+func (c *usersClient) Update(ctx context.Context, in *User, opts ...grpc.CallOption) (*CommResp, error) {
 	out := new(CommResp)
-	err := c.cc.Invoke(ctx, "/user.User/update", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/user.users/update", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *userClient) Delete(ctx context.Context, in *ReqUserId, opts ...grpc.CallOption) (*CommResp, error) {
+func (c *usersClient) Delete(ctx context.Context, in *ReqUserId, opts ...grpc.CallOption) (*CommResp, error) {
 	out := new(CommResp)
-	err := c.cc.Invoke(ctx, "/user.User/delete", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/user.users/delete", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *userClient) Get(ctx context.Context, in *ReqUserId, opts ...grpc.CallOption) (*User, error) {
+func (c *usersClient) Get(ctx context.Context, in *ReqUserId, opts ...grpc.CallOption) (*User, error) {
 	out := new(User)
-	err := c.cc.Invoke(ctx, "/user.User/get", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/user.users/get", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *userClient) GetAll(ctx context.Context, in *ReqGetAll, opts ...grpc.CallOption) (*RespGetAll, error) {
+func (c *usersClient) GetAll(ctx context.Context, in *ReqGetAll, opts ...grpc.CallOption) (*RespGetAll, error) {
 	out := new(RespGetAll)
-	err := c.cc.Invoke(ctx, "/user.User/getAll", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/user.users/getAll", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-// UserServer is the server API for User service.
-type UserServer interface {
+// UsersServer is the server API for Users service.
+type UsersServer interface {
 	Login(context.Context, *ReqUser) (*RespLogin, error)
 	Create(context.Context, *ReqUser) (*CommResp, error)
 	Update(context.Context, *User) (*CommResp, error)
@@ -497,168 +497,168 @@ type UserServer interface {
 	GetAll(context.Context, *ReqGetAll) (*RespGetAll, error)
 }
 
-// UnimplementedUserServer can be embedded to have forward compatible implementations.
-type UnimplementedUserServer struct {
+// UnimplementedUsersServer can be embedded to have forward compatible implementations.
+type UnimplementedUsersServer struct {
 }
 
-func (*UnimplementedUserServer) Login(ctx context.Context, req *ReqUser) (*RespLogin, error) {
+func (*UnimplementedUsersServer) Login(ctx context.Context, req *ReqUser) (*RespLogin, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Login not implemented")
 }
-func (*UnimplementedUserServer) Create(ctx context.Context, req *ReqUser) (*CommResp, error) {
+func (*UnimplementedUsersServer) Create(ctx context.Context, req *ReqUser) (*CommResp, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Create not implemented")
 }
-func (*UnimplementedUserServer) Update(ctx context.Context, req *User) (*CommResp, error) {
+func (*UnimplementedUsersServer) Update(ctx context.Context, req *User) (*CommResp, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Update not implemented")
 }
-func (*UnimplementedUserServer) Delete(ctx context.Context, req *ReqUserId) (*CommResp, error) {
+func (*UnimplementedUsersServer) Delete(ctx context.Context, req *ReqUserId) (*CommResp, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Delete not implemented")
 }
-func (*UnimplementedUserServer) Get(ctx context.Context, req *ReqUserId) (*User, error) {
+func (*UnimplementedUsersServer) Get(ctx context.Context, req *ReqUserId) (*User, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Get not implemented")
 }
-func (*UnimplementedUserServer) GetAll(ctx context.Context, req *ReqGetAll) (*RespGetAll, error) {
+func (*UnimplementedUsersServer) GetAll(ctx context.Context, req *ReqGetAll) (*RespGetAll, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetAll not implemented")
 }
 
-func RegisterUserServer(s *grpc.Server, srv UserServer) {
-	s.RegisterService(&_User_serviceDesc, srv)
+func RegisterUsersServer(s *grpc.Server, srv UsersServer) {
+	s.RegisterService(&_Users_serviceDesc, srv)
 }
 
-func _User_Login_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _Users_Login_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(ReqUser)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(UserServer).Login(ctx, in)
+		return srv.(UsersServer).Login(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/user.User/Login",
+		FullMethod: "/user.users/Login",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(UserServer).Login(ctx, req.(*ReqUser))
+		return srv.(UsersServer).Login(ctx, req.(*ReqUser))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _User_Create_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _Users_Create_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(ReqUser)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(UserServer).Create(ctx, in)
+		return srv.(UsersServer).Create(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/user.User/Create",
+		FullMethod: "/user.users/Create",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(UserServer).Create(ctx, req.(*ReqUser))
+		return srv.(UsersServer).Create(ctx, req.(*ReqUser))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _User_Update_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _Users_Update_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(User)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(UserServer).Update(ctx, in)
+		return srv.(UsersServer).Update(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/user.User/Update",
+		FullMethod: "/user.users/Update",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(UserServer).Update(ctx, req.(*User))
+		return srv.(UsersServer).Update(ctx, req.(*User))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _User_Delete_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _Users_Delete_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(ReqUserId)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(UserServer).Delete(ctx, in)
+		return srv.(UsersServer).Delete(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/user.User/Delete",
+		FullMethod: "/user.users/Delete",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(UserServer).Delete(ctx, req.(*ReqUserId))
+		return srv.(UsersServer).Delete(ctx, req.(*ReqUserId))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _User_Get_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _Users_Get_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(ReqUserId)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(UserServer).Get(ctx, in)
+		return srv.(UsersServer).Get(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/user.User/Get",
+		FullMethod: "/user.users/Get",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(UserServer).Get(ctx, req.(*ReqUserId))
+		return srv.(UsersServer).Get(ctx, req.(*ReqUserId))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _User_GetAll_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _Users_GetAll_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(ReqGetAll)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(UserServer).GetAll(ctx, in)
+		return srv.(UsersServer).GetAll(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/user.User/GetAll",
+		FullMethod: "/user.users/GetAll",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(UserServer).GetAll(ctx, req.(*ReqGetAll))
+		return srv.(UsersServer).GetAll(ctx, req.(*ReqGetAll))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-var _User_serviceDesc = grpc.ServiceDesc{
-	ServiceName: "user.User",
-	HandlerType: (*UserServer)(nil),
+var _Users_serviceDesc = grpc.ServiceDesc{
+	ServiceName: "user.users",
+	HandlerType: (*UsersServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
 			MethodName: "login",
-			Handler:    _User_Login_Handler,
+			Handler:    _Users_Login_Handler,
 		},
 		{
 			MethodName: "create",
-			Handler:    _User_Create_Handler,
+			Handler:    _Users_Create_Handler,
 		},
 		{
 			MethodName: "update",
-			Handler:    _User_Update_Handler,
+			Handler:    _Users_Update_Handler,
 		},
 		{
 			MethodName: "delete",
-			Handler:    _User_Delete_Handler,
+			Handler:    _Users_Delete_Handler,
 		},
 		{
 			MethodName: "get",
-			Handler:    _User_Get_Handler,
+			Handler:    _Users_Get_Handler,
 		},
 		{
 			MethodName: "getAll",
-			Handler:    _User_GetAll_Handler,
+			Handler:    _Users_GetAll_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
