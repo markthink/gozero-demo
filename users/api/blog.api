@@ -2,24 +2,58 @@
 syntax = "v1"
 
 info(
-	title: // TODO: add title
-	desc: // TODO: add description
-	author: ""
-	email: ""
+	title: "blog"// TODO: add title
+	desc: "blog api"// TODO: add description
+	author: "markthink"
+	email: "dxwsker@qq.com"
 )
 
-type request {
-	// TODO: add members here and delete this comment
+type reqUser {
+	Username string `json:"username"`
+	Password	string `json:"password"`
 }
 
-type response {
-	// TODO: add members here and delete this comment
+type reqUserId {
+	Id int64 `path:"id"`
+}
+
+type reqUpdateUser {
+	Id int64 `path:"id"`
+	Username string `json:"username"`
+	Password string `json:"password"`
+}
+
+type user {
+	Id int64 `path:"id"`
+	Username string `json:"username"`
+	Password string `json:"password"`
+}
+
+type respLogin {
+	Token string `json:"token"`
+}
+
+type commResp {
+	Ok bool `json:"ok"`
+	Error string `json:"error"`
 }
 
 service blog-api {
-	@handler GetUser // TODO: set handler name and delete this comment
-	get /users/id/:userId(request) returns(response)
+	@handler Login
+	post /login (reqUser) returns(respLogin)
 
-	@handler CreateUser // TODO: set handler name and delete this comment
-	post /users/create(request)
+	@handler AddUser
+	post /users (reqUser) returns (commResp)
+
+	@handler DeleteUser
+	delete /users/id/:id (reqUserId) returns (commResp)
+
+	@handler UpdateUser
+	put /users/id/:id  (reqUpdateUser) returns (commResp)
+
+	@handler GetUser
+	get /users/id/:id (reqUserId) returns (user)
+
+	@handler GetAllUsers
+	get /users () returns ([]user)
 }
