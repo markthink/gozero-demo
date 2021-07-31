@@ -1,0 +1,35 @@
+@hostname = localhost
+@port = 8888
+@host = {{hostname}}:{{port}}
+@createAt ={{$datetime iso8601}}
+
+###　创建用户
+
+POST /users HTTP/1.1
+Host: {{host}}
+Content-Type: application/json
+Cache-Control: no-Cache
+
+{
+    "username": "test",
+    "password": "123456"
+}
+
+
+###　更新用户
+{{host}}/users/id/1
+
+###　删除用户
+{{host}}/users/id/1
+
+### 获取所有的注册用户
+
+{{host}}/users
+
+###　获取指定用户信息
+{{host}}/users/id/1
+
+###　用户登陆验证
+
+{{host}}/login
+

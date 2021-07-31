@@ -14,6 +14,8 @@ import (
 	"github.com/tal-tech/go-zero/core/logx"
 )
 
+const secretKey = "go-demo"
+
 type LoginLogic struct {
 	ctx    context.Context
 	svcCtx *svc.ServiceContext
