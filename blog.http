@@ -11,25 +11,52 @@ Content-Type: application/json
 Cache-Control: no-Cache
 
 {
-    "username": "test",
+    "username": "fx",
     "password": "123456"
 }
 
 
 ###　更新用户
-{{host}}/users/id/1
+
+PUT  /users/id/1 HTTP/1.1
+Host: {{host}}
+Content-Type: application/json
+Cache-Control: no-Cache
+
+{
+    "username": "foxware",
+    "password": "123456"
+}
+
 
 ###　删除用户
-{{host}}/users/id/1
+DELETE   /users/id/1 HTTP/1.1
+Host: {{host}}
+Content-Type: application/json
+Cache-Control: no-Cache
 
 ### 获取所有的注册用户
 
-{{host}}/users
+GET   /users HTTP/1.1
+Host: {{host}}
+Content-Type: application/json
+Cache-Control: no-Cache
 
 ###　获取指定用户信息
-{{host}}/users/id/1
+GET   /users/id/2 HTTP/1.1
+Host: {{host}}
+Content-Type: application/json
+Cache-Control: no-Cache
 
 ###　用户登陆验证
 
-{{host}}/login
+POST /login HTTP/1.1
+Host: {{host}}
+Content-Type: application/json
+Cache-Control: no-Cache
+
+{
+    "username": "fx",
+    "password": "123456"
+}
 
