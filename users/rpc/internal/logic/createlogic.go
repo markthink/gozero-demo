@@ -3,6 +3,7 @@ package logic
 import (
 	"context"
 
+	"blog/users/model"
 	"blog/users/rpc/internal/svc"
 	"blog/users/rpc/user"
 
@@ -25,6 +26,13 @@ func NewCreateLogic(ctx context.Context, svcCtx *svc.ServiceContext) *CreateLogi
 
 func (l *CreateLogic) Create(in *user.ReqUser) (*user.CommResp, error) {
 	// todo: add your logic here and delete this line
+	_, err := l.svcCtx.Model.Insert(model.User{
+		Password: in.Password,
+		Username: in.Username,
+	})
+	if err != nil {
+		return nil, err
+	}
 
-	return &user.CommResp{}, nil
+	return &user.CommResp{Ok: true}, nil
 }

@@ -27,6 +27,9 @@ type (
 		FindOne(id int64) (*User, error)
 		Update(data User) error
 		Delete(id int64) error
+		// 新增接口
+		FindByName(name string) (*User, error)
+		FindAll() ([]*User, error)
 	}
 
 	defaultUserModel struct {
@@ -98,4 +101,36 @@ func (m *defaultUserModel) formatPrimary(primary interface{}) string {
 func (m *defaultUserModel) queryPrimary(conn sqlx.SqlConn, v, primary interface{}) error {
 	query := fmt.Sprintf("select %s from %s where `id` = ? limit 1", userRows, m.table)
 	return conn.QueryRow(v, query, primary)
+}
+
+// 实现 FindByName
+func (m *defaultUserModel) FindByName(name string) (*User, error) {
+	var resp User
+	userIdKey := fmt.Sprintf("%s%v", cacheUserIdPrefix, name)
+	err := m.QueryRow(&resp, userIdKey, func(conn sqlx.SqlConn, v interface{}) error {
+		query := fmt.Sprintf("select %s from %s where username = ? limit 1", userRows, m.table)
+		return conn.QueryRow(v, query, name)
+	})
+
+	switch err {
+	case nil:
+		return &resp, nil
+	case sqlc.ErrNotFound:
+		return nil, ErrNotFound
+	default:
+		return nil, err
+	}
+}
+
+func (m *defaultUserModel) FindAll() ([]*User, error) {
+	var resp []*User
+	err := m.QueryRowsNoCache(&resp, "select * from user")
+	switch err {
+	case nil:
+		return resp, nil
+	case sqlc.ErrNotFound:
+		return nil, ErrNotFound
+	default:
+		return nil, err
+	}
 }

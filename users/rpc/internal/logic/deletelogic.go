@@ -25,6 +25,10 @@ func NewDeleteLogic(ctx context.Context, svcCtx *svc.ServiceContext) *DeleteLogi
 
 func (l *DeleteLogic) Delete(in *user.ReqUserId) (*user.CommResp, error) {
 	// todo: add your logic here and delete this line
+	err := l.svcCtx.Model.Delete(in.Id)
+	if err != nil {
+		return nil, err
+	}
 
-	return &user.CommResp{}, nil
+	return &user.CommResp{Ok: true}, nil
 }
